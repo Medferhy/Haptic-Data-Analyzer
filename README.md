@@ -5,7 +5,9 @@ A Windows desktop application written in C# that loads data recorded while press
 ## Overview
 
 When a push button is pressed, force builds up, the button clicks, and then the force rises again as it reaches its end stop. This "click" is what a user feels, and it is measured as a force against travel curve. The program reads a recording of one press and release cycle, shows it in charts, and extracts the numbers that describe the feel of the switch.
+## Result
 
+![Application Result](result.png)
 ## Features
 
 - Loads acquisition data from a CSV file (travel, force and switching signal)
